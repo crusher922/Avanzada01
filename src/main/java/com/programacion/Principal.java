@@ -19,7 +19,7 @@ public class Principal {
 
         ManejadorPersistencia mp = container.buscar("manejadorPersistencia", ManejadorPersistencia.class);
 
-        System.out.println(tb + "Soy yo");
+        System.out.println(tb + " Soy transaccionBancaria invocado desde Principal");
         System.out.println(mp);
 
         container.destruir();
